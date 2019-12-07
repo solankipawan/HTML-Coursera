@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>same page links</title>
+</head>
+
+<body>
+    <h1 id="top">Link to the section of the same page</h1>
+    <section>
+        <ul>
+            <li><a href="#section1">section1</a></li>
+            <li>
+                <a href="#section2">section2</a></li>
+            <li>
+                <a href="#section3">section3</a></li>
+
+        </ul>
+    </section>
+    <section id="section1">
+        <h3>(#section1)Section 1</h3>
+        <p>Okay. So, here is our internal links page, and we have a couple of links. One it says linking to a file in the same directory, and the one is the DIV. That's the a tag surrounding the div tag that says DIV linking to a file in the same directory.
+            And if we click that, we're going to go to this same-directory.html page which basically just provides a link back to our original page. What's interesting to note here is that the first link, linking to a file in the same directory, is clearly
+            an inline tag since it's not forcing itself to go to a new line. But yet in the second case, div linking to a file in the same directory, we're surrounding the div tag with our a tag. So what's going on here? Are we using block level element,
+            the div, inside an inline element? Well, turns out things are little bit more interesting. Let's take a look at the a tag as defined in the W3C specification</p>
+    </section>
+    <section id="section2">
+        <h3>(#section2)Section 2</h3>
+        <p>Okay. So, here is our internal links page, and we have a couple of links. One it says linking to a file in the same directory, and the one is the DIV. That's the a tag surrounding the div tag that says DIV linking to a file in the same directory.
+            And if we click that, we're going to go to this same-directory.html page which basically just provides a link back to our original page. What's interesting to note here is that the first link, linking to a file in the same directory, is clearly
+            an inline tag since it's not forcing itself to go to a new line. But yet in the second case, div linking to a file in the same directory, we're surrounding the div tag with our a tag. So what's going on here? Are we using block level element,
+            the div, inside an inline element? Well, turns out things are little bit more interesting. Let's take a look at the a tag as defined in the W3C specification</p>
+    </section>
+    <section id="section3">
+        <h3>(#section3) Section 3</h3>
+        <p>And this document basically contains just a single link. There's really nothing super special about external links other that their href value usually starts with http:// because it's usually the case that external links are hosted on a different
+            domain name than your website. However, there's one feature of the a element that I would like to demonstrate that is quite often used in conjunction with external links. And that is the target attribute. Target attribute, when it's set to
+            the value _blank, forces the browser to open this page in a new tab or a new window. The reason that's advantageous is because nowadays unfortunately people have a very short attention span, and if you take them from your website to a different
+            website, it is a very good chance that they will never come back to your site. And usually you don't want them to leave your site completely. So target="_blank" is very useful in that regard. Let's a take a look at this page in the browser.</p>
+    </section>
+</body>
+
+</html>
